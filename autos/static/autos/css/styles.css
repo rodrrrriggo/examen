@@ -5,6 +5,11 @@
     background-position: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 /* logo del navbar */
@@ -48,4 +53,22 @@
 
 .form-text {
     color: orange;
+}
+
+.fondo {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+.auto-image {
+    width: 600px;
+    height: auto;
 }
